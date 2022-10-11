@@ -1,6 +1,9 @@
 body {
     margin: 0;
+    font-family: 'Courier New', Courier, monospace;
 }
+
+/*Segment 1 start*/
 
 .segment-1 {
     background-color: #cc76b9;
@@ -75,3 +78,46 @@ ul {
     -webkit-filter: drop-shadow(5px 5px 5px #222);
     filter: drop-shadow(5px 5px 5px #222);
 }
+
+/*Segment 1 ends*/
+
+/*Segment 2 starts*/
+
+.segment-2 {
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+.sakura-svg {
+    width: 100px;
+    height: 100px;
+}
+
+.header-container2 {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.header2 {
+    font-weight: bold;
+    font-size: 36px;
+    margin: 36px 0px;
+}
+
+.division-name {
+    font-size: 26px;
+}
+
+.sub-divisions-container {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+}
+
+.sub-division-text {
+    max-width: 200px;
+}
+
+
+/*Segment 2 ends*/
