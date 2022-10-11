@@ -3,19 +3,26 @@ body {
 }
 
 .segment-1 {
-    background-color: #1F2937;
+    background-color: #cc76b9;
     padding-left: 50px;
     padding-right: 50px;
     padding-top: 10px;
     padding-bottom: 50px;
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 .header-container {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     font-size: 24px;
+    color: #F9FAF8;
+}
+
+a {
+    text-decoration: none;
     color: #F9FAF8;
 }
 
@@ -44,16 +51,27 @@ ul {
     font-size: 48px;
     font-weight: bolder;
     color: #F9FAF8;
-    max-width: 400px;
+    max-width: 500px;
 }
 
 .hero-subtext {
     font-size: 18px;
     color: #E5E7EB;
-    max-width: 200px;
+    max-width: 350px;
+}
+
+.Signup-Segment1 {
+    background-color: red;
+    border-radius: 5px;
+    border-color: red;
+    color: #F9FAF8;
+    padding: 5px 20px;
+    margin-top: 5px;
 }
 
 .Sakura {
     width: auto;
     height: 400px;
+    -webkit-filter: drop-shadow(5px 5px 5px #222);
+    filter: drop-shadow(5px 5px 5px #222);
 }
