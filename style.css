@@ -141,7 +141,8 @@ ul {
 
 .mascot-name {
     color: #F9FAF8;
-    font-size: 48px;
+    font-size: 36px;
+    font-weight: bold;
 }
 
 .mascot-description {
@@ -150,7 +151,53 @@ ul {
 }
 
 .jcc-chan {
-    height: 500px;
+    height: 400px;
     width: auto;
 }
 /*Segment 3 ends*/
+
+/*Segment 4 start*/
+
+.segment-4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 100px 80px 100px;
+}
+
+.signupcontainer {
+    background-color: #cc76b9;
+    border-radius: 10px;
+    border-color: #cc76b9;
+    color: #E5E7EB;
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.signup-text {
+    max-width: 450px;
+    font-size: 18px;
+}
+
+.signup {
+    font-weight: bold;
+    font-size: 36px;
+    flex-shrink: 0;
+}
+/*Segment 4 ends*/
+
+/*Footer starts*/
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0px;
+    background-color: #cc76b9;
+    color: #F9FAF8;
+}
+
+/*Footer ends*/
