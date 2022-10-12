@@ -96,7 +96,7 @@ ul {
 .header-container2 {
     display: flex;
     justify-content: center;
-    align-content: center;
+    align-items: center;
 }
 
 .header2 {
@@ -112,6 +112,7 @@ ul {
 .sub-divisions-container {
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 52px;
 }
 
@@ -119,5 +120,37 @@ ul {
     max-width: 200px;
 }
 
-
 /*Segment 2 ends*/
+
+/*Segment 3 start*/
+
+.jcc-chan-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #cc76b9;
+}
+
+.description-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 36px 0;
+}
+
+.mascot-name {
+    color: #F9FAF8;
+    font-size: 48px;
+}
+
+.mascot-description {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.jcc-chan {
+    height: 500px;
+    width: auto;
+}
+/*Segment 3 ends*/
